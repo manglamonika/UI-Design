@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+ body{
+    text-align: center;
+ }
+ h1{
+    color:green
+ }
+
+    </style>
+</head>
+<body>
+  <button id="try">click</button>
+  <h1 id="test">hello</h1>
+  <script>
+    document.getElementById('try').addEventListener('click',function(){
+    document.getElementById('test').innerHTML="radharaman"
+    })
+  </script>
+    </script>
+    <h1 style="color:green">geeks for geeks</h1>
+    <input type="text" name="blur"
+    onblur="BlurFunction()"
+    placeholder="enter name"/>
+
+    <br>
+    <select id="course" onchange="onchangefunc(this.value)">
+        <option value="cp">cp</option>
+        <option value="python">python</option>
+        <option value="dsa">dsa</option>
+        <option value="math">math</option>
+    </select>
+    <p id="demo"></p>
+    <br>
+    <input type="text" id="ff" onfocus="focusfun()"
+    placeholder="enter ur sem">
+    <script>
+        function BlurFunction(){
+            let x=document.getElementsbyId('blur')
+            x.value=x.value.toUpperCase()
+        }
+        function onchangefunc(){
+            let x=document.getElementsbyId('course').value
+            .innerHTML="you se;ected ur id"
+        }
+        function focusfun(x){
+            document.getElementsbyId('x')
+            .style.background="green"
+        }
+    </script>
+
+
+
+
+
+
+
+    <!--
+        <div id="first">
+        
+        <h1>geeks for geeks</h1>
+        <p id="second">this is the text which already type</p>
+        
+    </div> -->
+ <!-- <h4>the input box will change color after pressing</h4>
+<input id="hover"  onchange="alert(this. value);let a=6;console.log(a)" 
+ placeholder="write something" type="number" style="background-color:yellowgreen">
+
+<script>
+   function out(){
+    let a=document.getElementById("hover")
+    a.style.display='none'
+   }
+</script>  -->
+
+
+<!-- <script>
+    btn.addEventlistner('click',function(e){
+        alert("hello world 1")
+    })
+</script> -->
+  
+
+
+    <!-- hello world
+    kaise ho -->
+    <!-- <span id="first"  class="second" data-set="mario game" data-player="krishn"><b>hloo</b>hey i am span</span>
+    <nav>
+        <li>hello</li>
+        <li>hii</li>
+        <li>about</li>
+        <li>me</li>
+
+    </nav>
+    <table>
+        <td>class</td>
+        <td>roll</td>
+        <td>sub</td>
+    </table> --> 
+    <script src="method.js/insertion.js"></script>
+</body>
+</html>

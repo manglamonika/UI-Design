@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            padding:5px;
+            border:1px solid black;
+height: 1000px;
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content:start;
+align-items: start;
+align-content: start;
+
+
+        }
+        .box{
+            height: 140px;
+            width: 160px;
+            
+        }
+        #box-1{
+background-color: goldenrod;
+align-self: center;
+
+        }
+        #box-2{
+            background-color: green;
+
+}
+
+        #box-3{
+            background-color: blueviolet;
+
+}
+        #box-4{
+            background-color: grey;
+
+}
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box-1">box1</div>
+    <div class="box" id="box-2">box2</div>
+    <div class="box" id="box-3">box3</div>
+    <div class="box" id="box-4">box4</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    background-color: beige;
+    border:5px solid black;
+    /* by default flex ki dirction row set hoti h */
+    display:flex;
+    /* we can chnge ka flex dirction by row column reverse  */
+    flex-direction: row;
+    height:1000px;
+   
+    /* when space is available vo box vhi rhega when it is not available vo box next line ke andr aa jaega  */
+/* flwx-wrap:wrap , nowrap */
+/* in wrap reverse case order will chnage  */
+    flex-wrap:;
+    /* flex-flow: column; */
+    justify-content:start;
+    /* in justify content there is start end centre flex or space around space between space evenly  in 
+    which space around me sare box equal distance pe honge or space between 1st or last box attached honge corner se or beech vale distance pe honge
+    space evenly me left or right ka space same hota h */
+
+    align-items: start;
+    align-content:space-between;
+}
+.box{
+height:150px;
+width: 200px;
+    border:2px solid brown;
+    margin:2px;
+    padding:2px;
+
+}
+#box1{
+background-color: aqua;
+/* in order property we can chnge the order of flex item */
+order: 500;
+/* flex item property is flex shrink in whichwe can shrink fastly any one of the box */
+/* flex-shrink: 1; */
+/* same we can grow the flex box according to number */
+/* flex-grow: 1; */
+align-self: center;
+
+}
+#box2{
+background-color: blue;
+flex-grow: 1;
+
+}
+#box3{
+background-color: blueviolet;
+flex-grow: 1;
+
+}
+#box4{
+background-color:greenyellow;
+order:-1;
+flex-grow: 1;
+/* dimension assign krni particular box ki
+ */
+/* flex-basis: 800px; */
+
+}
+
+    </style>
+</head>
+<body>
+   
+
+    
+</body>
+</html> -->

@@ -1,0 +1,74 @@
+p{
+    color:blueviolet
+}
+li{
+    color:brown
+}
+li{
+    list-style: square;
+}
+li{
+    list-style: none;
+}
+/* class selector */
+.formal{
+    color:orange;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* selct paricular element of class selector */
+
+span.formal,li.formal{
+    color:aquamarine
+}
+li em{
+    color:blanchedalmond
+}
+/* adjacent combinator */
+h2+p{
+    color:black;
+    font-size:40px;
+}
+/* pseudo class selector */
+/* :hover{
+    color:red;
+    text-decoration: none;
+} */
+:visited{
+    color:mediumaquamarine;
+    text-decoration: dotted;
+}
+/*  for all the selctor */
+body h2+p .formal{
+    color:yellow;
+    background-color: black;
+    padding:5px;
+}
+/* id selector */
+#heading{
+    color:palevioletred;
+    background-color: blue;
+}
+p#one{
+    color:lightsalmon;
+    background-color: darkviolet;
+    
+}
+/* attribute selector */
+li[class]{
+    font-size: 300%;
+}
+li[class=one]{
+    color:blue;
+}
+li[class~="one"]{
+    color:brown;
+}
+/* universal selector */
+*{
+    text-align: end;
+    
+    }
+div{
+    color:black;
+}

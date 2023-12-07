@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin:15px 30px;
+}
+.container{
+    padding: 5px 20px 20px33px;
+    background-color: aquamarine;
+    border:10px solid black;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select,
+textarea{
+    width:25px 10px;
+    padding: 20px;
+    border:2px solid pink;
+    border-radius: 5px;
+    margin:10px
+}
+fieldset{
+    background-color: white;
+    border:10px solid gray;
+    cursor:zoom-in
+}
+.heading{
+    text-align: center;
+}
+input[type="submit"]{
+   
+    background-color:#d21b1b;
+    padding: 12px 30px;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+    width:600px;
+
+
+}
+input[type="submit"]:hover{
+    background-color:blue;
+
+}
+input[type="adress"]{
+    margin:100px;
+}
+
+
+
+
+
+
+
+
+
+/* h1{
+    text-align:center;
+}
+
+nav{
+    
+    background-color: black;
+    overflow:hidden
+}
+nav a{
+    text-decoration: none;
+    padding :20px;
+    color: white;
+    text-align: center;
+    float: left;
+    
+
+}
+nav a:hover{
+    color:tomato
+}
+nav a:visited{
+    color:blue
+}
+
+h2{
+    text-align: center;
+} */

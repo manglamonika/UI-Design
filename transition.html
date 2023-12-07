@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box{
+    height:200px;
+    width:300px;
+    background-color: aquamarine;
+    border:2px solid black;
+    padding:5px;
+
+    /* transition-property:padding: ; ;
+    transition-duration: 5s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out; */
+    /* transition: all 2s 5s ease-out 5s; */
+
+    transition: width 2s , height 5s;
+    /* (pehle width or height or unke sec) */
+}
+/* transition dekhne ke lie humme hover krna jaruri h ya fr psuedo classes ka use krenge */
+
+.box:hover{
+    width:1050px;
+    height: 900px;
+    background-color: blue;
+}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

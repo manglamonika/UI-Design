@@ -1,0 +1,86 @@
+@media all and(min-width:1001px){
+    #class ul li a:before{
+        content:"("attr(data-email)")";
+        font-size: 11px;
+        font-style: italic;
+        color:grey;
+    }
+}
+@media all and (max-width:699px) and(min-width:520px) ,(min-width:1151px) {
+#class ul li a{
+    padding-left: 21px;
+    background: url("img.jpg ")left centre no-repeat;
+}
+    
+}
+
+
+div#layer1{
+    z-index: 1;
+    position: absolute;
+    top:8px;
+    left:8px;
+    width:250px;
+    height:120px;
+    background-color: green;
+    border:1px solid blue;
+    padding:5px;
+}
+
+div#layer2{
+    z-index: 2;
+    position: absolute;
+    top:25px;
+    left:25px;
+    width:250px;
+    height: 120;
+    background-color: orange;
+    border:1px solid blue;
+    padding:5px;
+}
+
+div#layer1{
+    z-index: 3;
+    position: absolute;
+    top:40px;
+    left:40px;
+    width:300px;
+    height: 160px;
+    background-color: aqua;
+    border:1px solid blue;
+    padding:5px;
+}
+
+/* h1{
+    color:red;
+}
+body{
+    background-color: rgb(29, 26, 26);
+    padding:10px;
+    text-align: center;
+    border: 10px solid red;
+    border-radius: 10px;
+    height:500px;
+    
+
+    
+
+}
+body,button,input{
+    font-weight: 700px;
+    letter-spacing: 1.4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hii , .hello,.hello1, .hii1{
+    display: grid;
+ 
+}
+
+
+
+
+
+
+
+
+    */

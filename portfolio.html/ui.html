@@ -1,213 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link src="./ui.css" type="stylesheet" />
     <title>ui design</title>
-</head>
-<style>
-    body{
-        background: #fff;
-        
+  </head>
+  <style>
+    body {
+      background: #fff;
     }
-    h4,h1{
-        font-family:sans-serif;
+    h4,
+    h1 {
+      font-family: sans-serif;
     }
-    .nav{
-        display: flex;
-        /* gap:20px 50px; */
-        justify-content: space-between;
-        
-        
+    .nav {
+      display: flex;
+      /* gap:20px 50px; */
+      justify-content: space-between;
+    }
+    .img1 {
+      background-color: rgba(191, 177, 177, 0.221);
+      height: 23rem;
+      width: 90%;
+      border-radius: 2rem 2rem 2rem 2rem;
+      margin: 2rem;
+    }
+    .girl {
+      position: absolute;
+      left: 23rem;
+      top: 9rem;
+    }
+    main {
+      position: relative;
+    }
+    .main1text::before {
+      content: "";
+      transform: rotate(-4deg);
+      z-index: -4;
+    }
 
+    .main1text {
+      position: absolute;
+      height: 3rem;
+      width: 9rem;
+      background: #fff;
+      top: 8rem;
+      left: 6rem;
     }
-    .img1{
-        background-color:rgba(191, 177, 177, 0.221);
-        height:23rem;
-        width:90%;
-        border-radius: 2rem 2rem 2rem 2rem;
-        margin: 2rem;
+    .main3text {
+      background: yellow;
+      height: 3rem;
+      width: 10rem;
+      position: absolute;
+      top: 15rem;
+      left: 6rem;
     }
-    .girl{
-        position: absolute;
-        left:23rem;
-        top:9rem;
-        
+    .main2text {
+      position: absolute;
+      top: 12rem;
+      left: 5rem;
     }
-main{
-    position: relative;
-}
-    .main1text::before{
-        content:"";
-        transform: rotate(-4deg);
-        z-index:-4;
+    .main4text {
+      position: absolute;
+      top: 19rem;
+      left: 5rem;
     }
-  
-    .main1text{
-        position: absolute;
-        height:3rem;
-        width:9rem;
-        background: #fff;
-        top:8rem;
-        left:6rem;
-        
-    }
-    .main3text{
-        background: yellow;
-        height:3rem;
-        width:10rem;
-        position: absolute;
-        top:15rem;
-        left:6rem;
-    }
-    .main2text{
-        position: absolute;
-        top:12rem;
-        left:5rem
-    }
-    .main4text{
-        position: absolute;
-        top:19rem;
-        left:5rem;
-    }
-    .butt2{
-        position: absolute;
-        top:26rem;
-        left:13rem;
+    .butt2 {
+      position: absolute;
+      top: 26rem;
+      left: 13rem;
     }
     .mainptext {
-        position: relative;
-        top:17rem;
+      position: relative;
+      top: 17rem;
     }
-    .arrow{
-        position: absolute;
-        top:26rem;
-        left:3rem;
+    .arrow {
+      position: absolute;
+      top: 26rem;
+      left: 3rem;
     }
-    .tag3{
-        position: absolute;
-        height:5rem;
-        width:90%;
-        background-color: yellow;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        
+    .tag3 {
+      position: absolute;
+      height: 5rem;
+      width: 90%;
+      background-color: yellow;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
     }
-    
-     .im1 .im2 .im3 .im4 .im5 .im6{
-       height:8rem;
-        width:9rem;
-        
-    }  
-    .tag4{
-        display: flex;
-      
-        justify-content: space-evenly;
-    }
-    figcaption{
-        bold:60px;
-        font-family: Arial, Helvetica, sans-serif;
-        position: relative;
-        top:27rem;
-        right:15rem
-    }
-    .tag5{
-        position: relative;
-        top:15rem;
-        height:20rem;
-        width:90%;
-        background: yellow;
-    }
-  .white:before{
-    position: relative;
-    content: "Read this";
-    background-color: yellow;
-    width: 8rem;
-    height:4rem;
-    transform:rotate(-2deg);
-    z-index:-1;
 
-  }
-  .white,.yellow{
-    position: absolute;
-    top:2rem;
-    left:28rem;
-    
-  }
-  .yellow{
-    top:5rem;
-    left:35rem
-  }
-    
-</style>
-<body>
-    
+    .im1 .im2 .im3 .im4 .im5 .im6 {
+      height: 8rem;
+      width: 9rem;
+    }
+    .tag4 {
+      display: flex;
+
+      justify-content: space-evenly;
+    }
+    figcaption {
+      bold: 60px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      top: 27rem;
+      right: 15rem;
+    }
+    .tag5 {
+      position: relative;
+      top: 15rem;
+      height: 20rem;
+      width: 90%;
+      background: yellow;
+    }
+    .white:before {
+      position: relative;
+      content: "Read this";
+      background-color: yellow;
+      width: 8rem;
+      height: 4rem;
+      transform: rotate(-2deg);
+      z-index: -1;
+    }
+    .white,
+    .yellow {
+      position: absolute;
+      top: 2rem;
+      left: 28rem;
+    }
+    .yellow {
+      top: 5rem;
+      left: 35rem;
+    }
+  </style>
+  <body>
     <header>
-       
-        
-        <span class="nav ">
-            <h4>FASHION
-            <a href="" >CATALOGUE</a>
-            <a href="" >FASHION</a>
-            <a href="" >FAVOURITE</a>
-            <a href="" >LIFESTYLE</a>
-            <button >Signup</button>
-        </h4>
-        </span> 
-        
-    
+      <span class="nav">
+        <h4>FASHION</h4>
+        <a href="">CATALOGUE</a>
+        <a href="">FASHION</a>
+        <a href="">FAVOURITE</a>
+        <a href="">LIFESTYLE</a>
+        <button>Signup</button>
+      </span>
     </header>
     <div class="img1">
-        <img class="girl"src="/girl.jpg" height="300px "> 
-        <h1 class="main1text">LET'S</h1>
-        <h1 class="main2text">EXPLORE</h1>
-        <h1 class="main3text">UNIQUE</h1>
-        <h1 class="main4text">CLOTHES </h1>
-        <p class="mainptext">Live for influential and innovative fashion!</p>
-        <img class="arrow" src="/arrow.png">
-        <button  class="butt2"style="background-color: black; color: white;">shop now </button>
-        
+      <img class="girl" src="/girl.jpg" height="300px " />
+      <h1 class="main1text">LET'S</h1>
+      <h1 class="main2text">EXPLORE</h1>
+      <h1 class="main3text">UNIQUE</h1>
+      <h1 class="main4text">CLOTHES</h1>
+      <p class="mainptext">Live for influential and innovative fashion!</p>
+      <img class="arrow" src="/arrow.png" />
+      <button class="butt2" style="background-color: black; color: white">
+        shop now
+      </button>
     </div>
-    <span class="tag3"> 
-        <img class="im1"src="/Screenshot 2023-12-03 144158.png">
-        <img class="im2"src="/Screenshot 2023-12-03 144207.png">
-        <img class="im3"src="/Screenshot 2023-12-03 144215.png">
-        <img class="im4"src="/Screenshot 2023-12-03 144229.png">
-        <img class="im5"src="/Screenshot 2023-12-03 144236.png">
-        <img class="im6"src="/Screenshot 2023-12-03 144207.png">
-        
-
+    <span class="tag3">
+      <img class="im1" src="/Screenshot 2023-12-03 144158.png" />
+      <img class="im2" src="/Screenshot 2023-12-03 144207.png" />
+      <img class="im3" src="/Screenshot 2023-12-03 144215.png" />
+      <img class="im4" src="/Screenshot 2023-12-03 144229.png" />
+      <img class="im5" src="/Screenshot 2023-12-03 144236.png" />
+      <img class="im6" src="/Screenshot 2023-12-03 144207.png" />
     </span>
-    <br>
-   <h1 style="bold: 60px; position: absolute;top:37rem; font-size: medium;
-    ">NEW ARRIVAL</h1>
+    <br />
+    <h1 style="bold: 60px; position: absolute; top: 37rem; font-size: medium">
+      NEW ARRIVAL
+    </h1>
 
-    <span  class="tag4">
-    <img  style="position: relative; top:8rem ;border-radius: 1rem 1rem 1rem 1rem;width:11rem "src="/Screenshot 2023-12-03 144300.png " ><figcaption>Hoodies & Sweetshirt </figcaption>
-    <small>Explore Now!</small>
-    <img style="position: relative; top:8rem ;border-radius: 1rem 1rem 1rem 1rem; width:11rem" src="/Screenshot 2023-12-03 144307.png" ><figcaption>Coats & Parkas</figcaption>
-    <img style="position: relative; top:8rem ;border-radius: 1rem 1rem 1rem 1rem; width:11rem"src="/Screenshot 2023-12-03 144313.png" ><figcaption>Tees & T-shirt</figcaption>
+    <span class="tag4">
+      <img
+        style="
+          position: relative;
+          top: 8rem;
+          border-radius: 1rem 1rem 1rem 1rem;
+          width: 11rem;
+        "
+        src="/Screenshot 2023-12-03 144300.png "
+      />
+      <figcaption>Hoodies & Sweetshirt</figcaption>
+      <small>Explore Now!</small>
+      <img
+        style="
+          position: relative;
+          top: 8rem;
+          border-radius: 1rem 1rem 1rem 1rem;
+          width: 11rem;
+        "
+        src="/Screenshot 2023-12-03 144307.png"
+      />
+      <figcaption>Coats & Parkas</figcaption>
+      <img
+        style="
+          position: relative;
+          top: 8rem;
+          border-radius: 1rem 1rem 1rem 1rem;
+          width: 11rem;
+        "
+        src="/Screenshot 2023-12-03 144313.png"
+      />
+      <figcaption>Tees & T-shirt</figcaption>
     </span>
-  
+
     <div class="tag5">
-<img style="position: relative; width:20rem;height:20rem;left:5rem"   class="img5"src="/Screenshot 2023-12-04 195011.png">
-    <h1><span class="white">PAYDAY</span><span class="yellow">SALE NOW </span></h1>
-        <span>Spend minimal $100 get 30% off voucher code for your next purchase
-            <h4>1june-10june2021</h4>
-            * Terms & Conditions apply
-            <button style="background: black;color: white;">Shop now</button>
-        </span>
-
-</div>
-<span>
-    <p >Young's Favourite</p>
-    <img src="/Screenshot 2023-12-04 195033.png" style="position: relative; top:20rem"><figcaption>Trending on instagram</figcaption>
-    <img src="/Screenshot 2023-12-04 195045.png" style="position: relative; top:7rem ;left:30rem;" ><figcaption>All under $40</figcaption>
-</span>
-
-
-    
-</body>
+      <img
+        style="position: relative; width: 20rem; height: 20rem; left: 5rem"
+        class="img5"
+        src="/Screenshot 2023-12-04 195011.png"
+      />
+      <h1>
+        <span class="white">PAYDAY</span><span class="yellow">SALE NOW </span>
+      </h1>
+      <span
+        >Spend minimal $100 get 30% off voucher code for your next purchase
+        <h4>1june-10june2021</h4>
+        * Terms & Conditions apply
+        <button style="background: black; color: white">Shop now</button>
+      </span>
+    </div>
+    <span>
+      <p>Young's Favourite</p>
+      <img
+        src="/Screenshot 2023-12-04 195033.png"
+        style="position: relative; top: 20rem"
+      />
+      <figcaption>Trending on instagram</figcaption>
+      <img
+        src="/Screenshot 2023-12-04 195045.png"
+        style="position: relative; top: 7rem; left: 30rem"
+      />
+      <figcaption>All under $40</figcaption>
+    </span>
+  </body>
 </html>
- 
